@@ -1,4 +1,7 @@
 const diary = require("./diary");
 const user = require("./user");
 
-module.exports = { diary, user };
+module.exports = {
+  diary,
+  user,
+};
