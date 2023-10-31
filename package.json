@@ -13,6 +13,7 @@
     "bcryptjs": "^2.4.3",
     "cors": "2.8.5",
     "cross-env": "7.0.3",
+    "dayjs": "^1.11.3",
     "dotenv": "^16.3.1",
     "express": "4.17.1",
     "http-errors": "^1.8.1",
@@ -23,9 +24,11 @@
     "nanoid": "^3.3.4",
     "passport": "0.6.0",
     "passport-jwt": "4.0.1",
+    "swagger-ui-express": "^4.4.0",
     "uuid": "^9.0.0"
   },
   "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10",
     "eslint": "7.19.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-config-standard": "16.0.3",
