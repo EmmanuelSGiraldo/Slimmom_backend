@@ -1,23 +1,21 @@
-const { Schema, model } = require('mongoose');
+// const { string } = require("joi");
+const { Schema, model } = require("mongoose");
 
 const productSchema = Schema(
   {
     categories: { type: Array },
     weight: { type: Number },
     title: {
-      type: {
-        ua: { type: String },
-        en: {type: String}
-      },
-    },
+      type: String
+        },
     calories: { type: Number },
     groupBloodNotAllowed: {
       type: Array,
     },
   },
-  { versionKey: false, timestamps: true },
+  { versionKey: false, timestamps: true }
 );
 
-const Product = model('product', productSchema);
+const Product = model("product", productSchema);
 
 module.exports = { Product };
